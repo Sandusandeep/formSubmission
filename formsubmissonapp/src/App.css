@@ -1,0 +1,133 @@
+.formMain {
+  background-color: #e5e4e2;
+  width: 50%;
+  margin: auto;
+  margin-top: 0.5%;
+  display: flex;
+  border: 1px solid #e5e4e2;
+  align-content: center;
+  align-items: center;
+  position: relative;
+  flex-direction: column;
+  z-index: 1;
+  padding-bottom: 20px;
+  margin-bottom: 1%;
+}
+.formMain::after {
+  content: "";
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  width: 98.5%;
+  min-height: 98%;
+  z-index: -1;
+  top: 0.7%;
+  border-radius: 12px;
+}
+.mainHeader {
+  color: green;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  margin-top: 3%;
+}
+.division1 {
+  display: flex;
+  flex-direction: column;
+  width: 87%;
+  margin-top: 10%;
+  gap: 10px;
+}
+.division2 {
+  display: flex;
+  flex-direction: column;
+  width: 87%;
+  margin-top: 5%;
+  gap: 10px;
+}
+.divisonInput {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  margin-top: 3%;
+}
+.divisonInput2 {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 15px;
+}
+.division3 {
+  display: flex;
+  padding: 15px;
+  gap: 20px;
+  width: 90%;
+  justify-content: center;
+}
+input {
+  height: 30px;
+  border-color: #e5e4e2;
+  border: 2px solid #e5e4e2;
+  border-radius: 5px;
+  padding-left: 15px;
+}
+.inputGender1 {
+  margin-left: 3%;
+  accent-color: green;
+}
+.inputContact {
+  text-decoration: none;
+}
+.inputFile {
+  margin: auto;
+  align-content: center;
+  justify-content: center;
+  justify-items: center;
+  width: 97.5%;
+  height: 40px;
+}
+.errorMessage {
+  color: red;
+  font-size: small;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+.dropdown {
+  height: 30px;
+  border-color: #e5e4e2;
+  border: 2px solid #e5e4e2;
+  border-radius: 5px;
+  padding-left: 15px;
+}
+textarea {
+  min-height: 150px;
+  resize: none;
+}
+button {
+  width: 30%;
+  background-color: green;
+  color: white;
+  height: 40px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 1px 0 greenyellow;
+  border: 0;
+}
+
+select {
+  display: flex;
+  justify-content: center;
+  box-shadow: 2px 2px 5px 0 green;
+}
+option {
+  display: flex;
+  padding: 30px;
+  gap: 30px;
+}
+
+.inputContact::-webkit-inner-spin-button,
+.inputContact::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
